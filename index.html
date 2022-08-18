@@ -31,6 +31,20 @@ console.log(resultado);
  let vetor = [345,54,54,45,34];
  console.log(vetor [0]);
  console.log(vetor [1]);
+
+ let varGlo= 3;
+function funcaoGlo(){
+    let varFuncao =  varGlo + 1;
+
+    function funcaoLocal(){
+        let varFuncLocal = varFuncao + varGlo;
+        console.log(varFuncLocal);
+    }
+}
+
+
+
+
     </script>
 </body>
   
